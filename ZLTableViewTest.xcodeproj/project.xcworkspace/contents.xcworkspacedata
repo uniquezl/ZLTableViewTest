@@ -2,6 +2,49 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../ZLTableViewTest/ace.h">
+   </FileRef>
+   <FileRef
+      location = "group:../ZLTableViewTest/ace.m">
+   </FileRef>
+   <FileRef
+      location = "group:../def.h">
+   </FileRef>
+   <FileRef
+      location = "group:../def.m">
+   </FileRef>
+   <FileRef
+      location = "group:../ZLTableViewTest/abc.h">
+   </FileRef>
+   <FileRef
+      location = "group:../ZLTableViewTest/abc.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/zhulin/Desktop/zl/Demo/ZLTableViewTest/ZLTableViewTest/GroupModel.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/zhulin/Desktop/zl/Demo/ZLTableViewTest/ZLTableViewTest/GroupModel.m">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "New Group">
+   </Group>
+   <FileRef
+      location = "group:/Users/zhulin/Desktop/zl/Demo/ZLTableViewTest/ZLTableViewTest/FriendsCell.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/zhulin/Desktop/zl/Demo/ZLTableViewTest/ZLTableViewTest/FriendsCell.m">
+   </FileRef>
+   <FileRef
+      location = "group:../FriendsCell.h">
+   </FileRef>
+   <FileRef
+      location = "group:../FriendsCell.m">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/zhulin/Desktop/zl/Demo/ZLTableViewTest/ZLTableViewTest/friends.plist">
+   </FileRef>
+   <FileRef
       location = "self:ZLTableViewTest.xcodeproj">
    </FileRef>
 </Workspace>

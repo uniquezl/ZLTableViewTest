@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "FriendsCell.h"
+#import "GroupModel.h"
+#import "SectionHeader.h"
+#import "ZLTableViewController.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) ZLTableViewController * table;
 
 @end
 
@@ -17,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 

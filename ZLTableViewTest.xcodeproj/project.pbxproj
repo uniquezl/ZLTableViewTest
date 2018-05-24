@@ -14,6 +14,12 @@
 		B6028ED920B56A3B000C2D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6028ED820B56A3B000C2D55 /* Assets.xcassets */; };
 		B6028EDC20B56A3B000C2D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6028EDA20B56A3B000C2D55 /* LaunchScreen.storyboard */; };
 		B6028EDF20B56A3B000C2D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028EDE20B56A3B000C2D55 /* main.m */; };
+		B6028EF120B5780F000C2D55 /* FriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028EF020B5780F000C2D55 /* FriendsCell.m */; };
+		B6028EF420B5791E000C2D55 /* GroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028EF320B5791E000C2D55 /* GroupModel.m */; };
+		B6028EF720B57E35000C2D55 /* FriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028EF620B57E35000C2D55 /* FriendsModel.m */; };
+		B6028EFA20B58CCA000C2D55 /* SectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028EF920B58CCA000C2D55 /* SectionHeader.m */; };
+		B6028F3920B659A7000C2D55 /* ZLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028F3820B659A7000C2D55 /* ZLTableViewController.m */; };
+		B6028F3B20B6684D000C2D55 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6028F3A20B6684D000C2D55 /* friends.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,17 @@
 		B6028EDB20B56A3B000C2D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6028EDD20B56A3B000C2D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6028EDE20B56A3B000C2D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6028EEF20B5780F000C2D55 /* FriendsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsCell.h; sourceTree = "<group>"; };
+		B6028EF020B5780F000C2D55 /* FriendsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsCell.m; sourceTree = "<group>"; };
+		B6028EF220B5791E000C2D55 /* GroupModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupModel.h; sourceTree = "<group>"; };
+		B6028EF320B5791E000C2D55 /* GroupModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupModel.m; sourceTree = "<group>"; };
+		B6028EF520B57E35000C2D55 /* FriendsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsModel.h; sourceTree = "<group>"; };
+		B6028EF620B57E35000C2D55 /* FriendsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsModel.m; sourceTree = "<group>"; };
+		B6028EF820B58CCA000C2D55 /* SectionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionHeader.h; sourceTree = "<group>"; };
+		B6028EF920B58CCA000C2D55 /* SectionHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionHeader.m; sourceTree = "<group>"; };
+		B6028F3720B659A7000C2D55 /* ZLTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTableViewController.h; sourceTree = "<group>"; };
+		B6028F3820B659A7000C2D55 /* ZLTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTableViewController.m; sourceTree = "<group>"; };
+		B6028F3A20B6684D000C2D55 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +77,19 @@
 		B6028ECB20B56A3A000C2D55 /* ZLTableViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				B6028F3A20B6684D000C2D55 /* friends.plist */,
 				B6028ECC20B56A3A000C2D55 /* AppDelegate.h */,
 				B6028ECD20B56A3A000C2D55 /* AppDelegate.m */,
+				B6028EEF20B5780F000C2D55 /* FriendsCell.h */,
+				B6028EF020B5780F000C2D55 /* FriendsCell.m */,
+				B6028EF220B5791E000C2D55 /* GroupModel.h */,
+				B6028EF320B5791E000C2D55 /* GroupModel.m */,
+				B6028F3720B659A7000C2D55 /* ZLTableViewController.h */,
+				B6028F3820B659A7000C2D55 /* ZLTableViewController.m */,
+				B6028EF820B58CCA000C2D55 /* SectionHeader.h */,
+				B6028EF920B58CCA000C2D55 /* SectionHeader.m */,
+				B6028EF520B57E35000C2D55 /* FriendsModel.h */,
+				B6028EF620B57E35000C2D55 /* FriendsModel.m */,
 				B6028ECF20B56A3A000C2D55 /* ViewController.h */,
 				B6028ED020B56A3A000C2D55 /* ViewController.m */,
 				B6028ED220B56A3A000C2D55 /* Main.storyboard */,
@@ -133,6 +161,7 @@
 			files = (
 				B6028EDC20B56A3B000C2D55 /* LaunchScreen.storyboard in Resources */,
 				B6028ED920B56A3B000C2D55 /* Assets.xcassets in Resources */,
+				B6028F3B20B6684D000C2D55 /* friends.plist in Resources */,
 				B6028ED420B56A3A000C2D55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,9 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6028EFA20B58CCA000C2D55 /* SectionHeader.m in Sources */,
 				B6028ED120B56A3A000C2D55 /* ViewController.m in Sources */,
+				B6028EF420B5791E000C2D55 /* GroupModel.m in Sources */,
+				B6028EF120B5780F000C2D55 /* FriendsCell.m in Sources */,
 				B6028ED720B56A3A000C2D55 /* ZLTableViewTest.xcdatamodeld in Sources */,
 				B6028EDF20B56A3B000C2D55 /* main.m in Sources */,
+				B6028F3920B659A7000C2D55 /* ZLTableViewController.m in Sources */,
+				B6028EF720B57E35000C2D55 /* FriendsModel.m in Sources */,
 				B6028ECE20B56A3A000C2D55 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
